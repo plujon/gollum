@@ -6,7 +6,7 @@ module Precious
       attr_reader :results, :ref, :allow_editing, :newable
 
       def title
-        "Overview of #{@ref}"
+        "Index"
       end
 
       # def editable
